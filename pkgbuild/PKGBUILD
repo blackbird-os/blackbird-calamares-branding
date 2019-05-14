@@ -1,0 +1,20 @@
+# $Id$
+# Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
+
+pkgname=blackbird-calamares-branding
+pkgver=$(date +%Y%m%d)
+pkgrel=1
+pkgdesc='Calamares branding for Blackbird OS'
+arch=('any')
+url="https://github.com/blackbird-os/blackbird-calamares-branding"
+license=('GPL')
+depends=('calamares')
+install=blackbird-calamares-branding.install
+
+package() {
+	cd ../..
+	install -d $pkgdir/usr/share/calamares/branding/blackbird
+	install -d $pkgdir/usr/share/icons/hicolor/128x128/apps/
+	cp blackbird/* $pkgdir/usr/share/calamares/branding/blackbird
+	cp calamares-blackbird.png $pkgdir/usr/share/icons/hicolor/128x128/apps/calamares-blackbird.png
+}

@@ -1,0 +1,24 @@
+---
+componentName: blackbird
+windowExpanding: noexpand
+windowSize: 800px,600px
+
+strings:
+    productName:         Blackbird
+    shortProductName:    Blackbird
+    version:             2019.04
+    shortVersion:        19.04
+    versionedName:       Blackbird OS Edition
+    shortVersionedName:  Blackbird OS
+    bootloaderEntryName: Blackbird OS
+
+images:
+    productLogo:         "Blackbird-icon.png"
+    productIcon:         "Blackbird-icon.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#8497A7"
