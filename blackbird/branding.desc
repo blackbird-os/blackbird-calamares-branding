@@ -4,12 +4,12 @@ windowExpanding: noexpand
 windowSize: 800px,600px
 
 strings:
-    productName:         Blackbird
+    productName:         Blackbird OS
     shortProductName:    Blackbird
     version:             2019.04
     shortVersion:        19.04
-    versionedName:       Blackbird OS Edition
-    shortVersionedName:  Blackbird OS
+    versionedName:       Blackbird OS 2019.04
+    shortVersionedName:  Blackbird 19.04
     bootloaderEntryName: Blackbird OS
 
 images:
