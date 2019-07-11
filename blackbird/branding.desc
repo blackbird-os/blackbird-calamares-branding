@@ -13,7 +13,7 @@ strings:
     bootloaderEntryName: Blackbird OS
 
 images:
-    productLogo:         "blackbird-os-logo.png"
+    productLogo:         "blackbird-os-icon.png"
     productIcon:         "blackbird-os-icon.png"
 
 slideshow:               "show.qml"
