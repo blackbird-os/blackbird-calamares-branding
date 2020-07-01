@@ -6,10 +6,10 @@ windowSize: 800px,600px
 strings:
     productName:         Blackbird OS
     shortProductName:    Blackbird
-    version:             2019.06
-    shortVersion:        19.06
-    versionedName:       Blackbird OS 2019.06
-    shortVersionedName:  Blackbird 19.06
+    version:             2020.06
+    shortVersion:        20.06
+    versionedName:       Blackbird OS 2020.06
+    shortVersionedName:  Blackbird 20.06
     bootloaderEntryName: Blackbird OS
 
 images:
